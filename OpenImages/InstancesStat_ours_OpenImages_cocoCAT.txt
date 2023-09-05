@@ -1,0 +1,56 @@
+Truck:115
+Traffic light:35
+Fire hydrant:46
+Stop sign:29
+Parking meter:4
+Elephant:95
+Bear:41
+Zebra:94
+Giraffe:52
+Backpack:54
+Umbrella:13
+Handbag:65
+Suitcase:51
+Flying disc:1
+Ski:0
+Snowboard:0
+Ball:144
+Kite:49
+Baseball bat:4
+Baseball glove:2
+Skateboard:0
+Surfboard:0
+Tennis racket:9
+Wine glass:20
+Coffee cup:45
+Fork:79
+Knife:112
+Bowl:51
+Banana:65
+Apple:154
+Sandwich:2
+Orange:181
+Broccoli:25
+Carrot:41
+Hot dog:38
+Pizza:0
+Doughnut:82
+Cake:69
+Toilet:46
+Laptop:44
+Computer mouse:50
+Remote control:23
+Computer keyboard:66
+Mobile phone:48
+Microwave oven:31
+Oven:29
+Toaster:2
+Sink:49
+Refrigerator:14
+Clock:44
+Vase:93
+Scissors:5
+Teddy bear:52
+Hair dryer:2
+Toothbrush:19
+totoal:2484

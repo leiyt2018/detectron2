@@ -1,0 +1,24 @@
+_BASE_: "../Base-Evidential-RCNN-C4.yaml"
+MODEL:
+#  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  WEIGHTS: "/home/leiyvtian/project/RAL/detectron2/model_weights/model_final_b1acc2.pkl"
+#  WEIGHTS: "/home/leiyvtian/Project/detectron2/tools/output/model_final.pth"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    NUM_CLASSES: 20
+    NAME: "EvidentialROIHeads"
+INPUT:
+  MIN_SIZE_TRAIN: (480, 512, 544, 576, 608, 640, 672, 704, 736, 768, 800)
+  MIN_SIZE_TEST: 800
+DATASETS:
+  TRAIN: ('voc_2007_trainval', 'voc_2012_trainval')
+  TEST: ('voc_2007_test',)
+SOLVER:
+#  STEPS: (12000, 16000)
+#  MAX_ITER: 18000  # 17.4 epochs
+  STEPS: (48000, 64000)
+  MAX_ITER: 72000  # 17.4 epochs
+  WARMUP_ITERS: 400
+  BASE_LR: 0.0002
